@@ -18,4 +18,5 @@ There are no any bugs
 for more detail you can reach me via;
 kuyamaxmillan@gmail.com
 ### License
-license under the MIT LICENSE Copyright (c) 2021 Maxmillan Kuya
+license under the [MIT LICENSE] (lisense.txt)*
+copyright (c) 2021 **Maxmillan Kuya**

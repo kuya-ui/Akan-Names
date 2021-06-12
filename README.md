@@ -17,3 +17,5 @@ There are no any bugs
 ## Support and contact details
 for more detail you can reach me via;
 kuyamaxmillan@gmail.com
+### License
+license under the MIT LICENSE Copyright (c) 2021 Maxmillan Kuya

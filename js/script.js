@@ -1,0 +1,1 @@
+function calculateAkanName(day, month, year)

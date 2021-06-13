@@ -3,8 +3,27 @@
     margin: 0;
 }
 body{
-    text-align: center;
     background-image:url("/images/florian-hesse-G-tt424Vc4s-unsplash.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    border: 2px solid transparent;
+    height: 20vh;
+    width: 30%;
+    position: relative;
+    top: 100%;
+    left: 35%;
+    font-size: 50px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    background-color: rgba(206, 205, 205, 0.582);
+    margin: 50px;
+}
+h1 l {
+    color: white;
+}
+h1 m {
+    color: burlywood;
 }

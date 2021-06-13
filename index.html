@@ -12,7 +12,19 @@
         <h1><l>AKAN</l> <m>NAMES</m></h1>
         <p>The akan people are basically from Ghana and Ivory Coast. They are also known as Twi/Fante.<br> The <strong>Akan People</strong> of ghana frequently name their children after the day of the week they were born <br>and order in which they were born. These <strong>"days names"</strong> have further meanings concerning the soul <br> character of a person.</p><br><br>
         <div class="center">
-            <h2>Fill the form bellow.</h2><br><br>
+            <h2>Fill the form bellow.</h2><br>
+            <form>
+                <label>DAY</label><br>
+                <input type="number" id="day" placeholder="DD" class="control" required ><br>
+                <label>MONTH</label><br>
+                <input type="number" id="month" placeholder="MM" class="control" required ><br>
+                <label>YEAR</label><br>
+                <input type="number" id="year" placeholder="YY" class="control" required ><br>
+                <label>GENDER</label><br>
+                <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" id="gender" value="female" checked> Female<br>
+                <input type="submit" value="submit" class="btn" onclick="output()">
+            </form>
         </div>
     </div>
 </body>

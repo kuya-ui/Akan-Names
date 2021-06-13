@@ -27,3 +27,10 @@ h1 l {
 h1 m {
     color: burlywood;
 }
+p{
+    font-size: 30px;
+    color: white;
+    height: 200px;
+    border-radius: 10% 10%;
+    background-color: rgb(216, 159, 216);
+}

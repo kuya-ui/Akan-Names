@@ -38,3 +38,9 @@ h2{
     color: whitesmoke;
     font-size: 30px;
 }
+label{
+    font-size: 20px;
+}
+#btn{
+    background-color: tomato;
+}

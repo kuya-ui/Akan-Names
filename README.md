@@ -14,6 +14,9 @@ There are no any bugs
 * HTML
 * CSS
 * Java Script
+## BDD 
+The form is about the naming system of the Akan people. It contains an input box where one is required to fill there birth date,month and year afterwards clicking the submit button, where afterwards an alert pop that shows yor name and the day you were born.
+It also has a section where one can choose their gender.
 ## Support and contact details
 for more detail you can reach me via;
 kuyamaxmillan@gmail.com

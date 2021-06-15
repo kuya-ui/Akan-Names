@@ -48,6 +48,9 @@ function DayAndName(){
    }elseif (Math.round(result)==0 && gender==='female');{
     document.getElementById("display").innerHTML = ("you were born on Sunday, your akan name is" + femaleNames[0]);
    }
+   {
+       alert("input data")
+   }
 
 
 }

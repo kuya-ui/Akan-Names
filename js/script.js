@@ -17,15 +17,15 @@ function DayAndName(){
        let one = "female"
    }if(mm<1 || mm>12 || mm==2 && dd>29){
        alert("invalid month")
-   }elseif(dd<1 || dd>31){
+   }elseif(dd<1 || dd>31);{
        alert("invalid date")
-   }elseif(Math.round(result)==1 && gender==='male'){
+   }elseif(Math.round(result)==1 && gender==='male');{
        document.getElementById("display").innerHTML = ("you were born on Monday, your akan name is" + maleNames[1]);
-   }elseif (Math.round(result)==2 && gender==='male'){
+   }elseif (Math.round(result)==2 && gender==='male');{
        document.getElementById("display").innerHTML = ("you were born on Teusday, your akan name is" + maleNames[2]);
-   }elseif (Math.round(result)==3 && gender==='male'){
+   }elseif (Math.round(result)==3 && gender==='male');{
        document.getElementById("display").innerHTML = ("you were born on Wednesday, your akan name is" + maleNames[3]);
-   }elseif (Math.round(result)==4 && gender==='male'){
+   }elseif (Math.round(result)==4 && gender==='male');{
     document.getElementById("display").innerHTML = ("you were born on Thursday, your akan name is" + maleNames[4]);
    }elseif (Math.round(result)==5 && gender==='male');{
     document.getElementById("display").innerHTML = ("you were born on Friday, your akan name is" + maleNames[5]);

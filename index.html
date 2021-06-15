@@ -13,19 +13,33 @@
         <p>The akan people are basically from Ghana and Ivory Coast. They are also known as Twi/Fante.<br> The <strong>Akan People</strong> of ghana frequently name their children after the day of the week they were born <br>and order in which they were born. These <strong>"days names"</strong> have further meanings concerning the soul <br> character of a person.</p><br><br>
         <div class="center">
             <h2>Fill the form bellow.</h2><br>
-            <form>
-                <label>Day</label><br>
-                <input type="number" id="day" placeholder="dd" class="control" required ><br><br>
-                <label>Month</label><br>
-                <input type="number" id="month" placeholder="mm" class="control" required ><br><br>
-                <label>Year</label><br>
-                <input type="number" id="year" placeholder="yy" class="control" required ><br><br>
+            <form id="form"> 
+                <div>
+                    <label>Day</label><br>
+                    <input type="number" id="day" placeholder="dd" class="control" required >
+                </div>
+               <div>
+                    <label>Month</label><br>
+                    <input type="number" id="month" placeholder="mm" class="control" required >
+               </div>
+                <div>
+                    <label>Year</label><br>
+                    <input type="number" id="year" placeholder="yy" class="control" required >
+                </div>
+              <div>
                 <label>Gender</label><br>
-                <input type="radio" name="gender" id="one" value="male" checked> Male<br>
-                <input type="radio" name="gender" id="one" value="female" checked> Female<br><br>
-                <input type="button" value="submit" id="btn" onclick="output()">
-            </form><br>
+                <input type="radio" name="gender" id="male" value="male" > Male
+                <input type="radio" name="gender" id="female" value="female" > Female
+              </div>
+              <div>
+               
+                <input type="submit" name="" id="submit">
+              </div>
             
+            </form>
+          <div id="smart">
+
+          </div>
         </div>
     </div>
     <script src="./js/script.js"></script>

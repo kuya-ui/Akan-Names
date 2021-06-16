@@ -20,14 +20,17 @@ function userData() {
 function dataOutPut(e) {
   e.preventDefault();
   let birthIndex = userData();
-  
+
   if (document.getElementById("male").checked) {
-    alert("your akan name is " + maleNames[birthIndex] + "." + " you were born on  " + daysOfTheWeek[birthIndex]); 
+    results.textContent = "your akan name is " + maleNames[birthIndex] + " you were born on  " + daysOfTheWeek[birthIndex];
+​
   } else if (document.getElementById("female").checked) {
-    alert("your akan name is " + femaleNames[birthIndex] + "." + " you were born on " + daysOfTheWeek[birthIndex]); 
+    results.textContent = "your akan name is " + femaleNames[birthIndex] + " you were born on " + daysOfTheWeek[birthIndex];
+​
   }
-  document.getElementById("form").reset();
 };
+  document.getElementById("form").reset();
+;
 function validation(d, m, y) {
   if (d < 0 || d > 31 || d === "") {
     alert("error day");

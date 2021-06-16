@@ -3,11 +3,7 @@
     margin: 0;
 }
 body{
-<<<<<<< HEAD
-    background-image:url("../images/florian-hesse-G-tt424Vc4s-unsplash.jpg");
-=======
     background-image: url(/images/florian-hesse-G-tt424Vc4s-unsplash.jpg);
->>>>>>> master
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;

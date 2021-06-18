@@ -26,7 +26,7 @@ alert ("your akan name is " + maleNames[birthIndex] + " you were born on " + day
 } else if (document.getElementById("female").checked) {
 alert ("your akan name is " + femaleNames[birthIndex] + " you were born on " + daysOfTheWeek[birthIndex]);
 }
-document.getElementById("form");
+document.getElementById("form").reset();
 };
 
 function validation(d, m, y) {

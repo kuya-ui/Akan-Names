@@ -15,18 +15,18 @@ let month = document.getElementById("month").value
 let year = document.getElementById("year").value
 validation(day, month, year);
 let id = akanGen(day, month, year)
-return results;
+return id;
 }
 function dataOutPut(e) {
 e.preventDefault();
 let birthIndex = userData();
 
 if (document.getElementById("male").checked) {
-results.textContent = "your akan name is " + maleNames[birthIndex] + " you were born on " + daysOfTheWeek[birthIndex];
+alert ("your akan name is " + maleNames[birthIndex] + " you were born on " + daysOfTheWeek[birthIndex]);
 } else if (document.getElementById("female").checked) {
-results.textContent = "your akan name is " + femaleNames[birthIndex] + " you were born on " + daysOfTheWeek[birthIndex];
+alert ("your akan name is " + femaleNames[birthIndex] + " you were born on " + daysOfTheWeek[birthIndex]);
 }
-document.getElementById("form").reset();
+document.getElementById("form");
 };
 
 function validation(d, m, y) {
